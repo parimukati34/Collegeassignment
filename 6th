@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Event Status Bar</title>
+</head>
+
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial;">
+
+    <button
+        onmouseover="window.status='Mouse is over the button';"
+        onmouseout="window.status='Mouse moved away from the button';">
+        Hover Me
+    </button>
+
+</body>
+</html>
