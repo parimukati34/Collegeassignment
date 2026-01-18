@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - College Assignment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0066cc;
+            margin: 30px 0;
+            font-size: 2em;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 30px 0 20px 0;
+            font-size: 1.5em;
+        }
+
+        h3 {
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+        }
+
+        section {
+            margin: 40px 0;
+            padding: 20px;
+            border-bottom: 2px solid #ddd;
+            scroll-margin-top: 70px;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        p {
+            margin: 15px 0;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 300px;
+            height: 200px;
+            background-color: #e0e0e0;
+            border: 2px solid #ccc;
+            text-align: center;
+            line-height: 200px;
+            color: #666;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+
+        form {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px 0;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+        }
+
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0052a3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 2px solid #ddd;
+            color: #666;
+        }
+
+        .home-heading {
+            color: #0066cc;
+        }
+
+        .about-heading {
+            color: #009900;
+        }
+
+        .hobbies-heading {
+            color: #9900cc;
+        }
+
+        .education-heading {
+            color: #cc6600;
+        }
+
+        .contact-heading {
+            color: #cc0000;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- HOME SECTION -->
+        <section id="home">
+            <h1 class="home-heading">Welcome to My Website</h1>
+            <p>This is the home page of my website. Here you can find information about me, my hobbies, my educational background, and ways to contact me. This website contains various sections that provide details about different aspects of my life and interests.</p>
+            
+            <ul>
+                <li>About Me</li>
+                <li>My Hobbies</li>
+                <li>My Education</li>
+                <li>Contact Information</li>
+            </ul>
+
+            <h3>Why This Website?</h3>
+            <p>This website is created using HTML as part of practical work. It demonstrates the use of basic HTML elements and CSS styling to create a simple and functional webpage.</p>
+            
+            <img src="./images/home.jpg" alt="Home Image" title="Home Image">
+        </section>
+
+        <!-- ABOUT ME SECTION -->
+        <section id="about">
+            <h2 class="about-heading">About Me</h2>
+            
+            <h3>Introduction</h3>
+            <p>Hello! My name is Pari Mukati. I am a student and I am learning computer programming and web development. I am interested in creating simple websites using HTML.</p>
+
+            <h3>My Hobbies</h3>
+            <ul>
+                <li>Playing sports</li>
+                <li>Reading books</li>
+                <li>Listening to music</li>
+            </ul>
+        </section>
+
+        <!-- HOBBIES SECTION -->
+        <section id="hobbies">
+            <h2 class="hobbies-heading">My Hobbies</h2>
+            
+            <h3>About My Hobbies</h3>
+            <p>Hobbies are activities that we enjoy doing in our free time. They help us relax, learn new skills, and express our creativity. Having hobbies is important for maintaining a healthy work-life balance.</p>
+
+            <h3>My Favorite Hobbies</h3>
+            <ul>
+                <li>Playing sports</li>
+                <li>Reading books</li>
+                <li>Listening to music</li>
+                <li>Making painting</li>
+            </ul>
+
+            <h3>Why Hobbies Are Important</h3>
+            <p>Hobbies reduce stress and increase creativity. They provide an outlet for self-expression and help us develop new skills. Engaging in hobbies can improve our mental health and overall well-being.</p>
+            
+            <img src="./images/hobbies.jpeg" alt="Hobbies Image" title="Hobbies Image">
+
+            <h3>My Goal</h3>
+            <p>My goal is to become a successful professional and improve my technical skills to build useful applications.</p>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section id="education">
+            <h2 class="education-heading">My Education</h2>
+            
+            <h3>Educational Qualification</h3>
+            <p>The table below shows my educational background, including the schools and colleges I have attended, along with the years of completion.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>School / College</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Secondary School</td>
+                        <td>Vaishnavi Eminent School</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>Higher Secondary</td>
+                        <td>SVIIT College</td>
+                        <td>Ongoing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- CONTACT INFORMATION SECTION -->
+        <section id="contact">
+            <h2 class="contact-heading">Contact Information</h2>
+            
+            <h3>Get in Touch</h3>
+            <p>If you would like to get in touch with me, please use the contact details provided below or fill out the contact form.</p>
+
+            <h3>My Contact Details</h3>
+            <ul>
+                <li>Name: Pari Mukati</li>
+                <li>Email: parimukati34@gmail.com</li>
+                <li>Phone: 9876543210</li>
+                <li>Address: Barwani</li>
+            </ul>
+
+            <h3>Contact Form</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>© 2026 My Website</p>
+        </footer>
+    </div>
+</body>
+</html>
