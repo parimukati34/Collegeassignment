@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Web Page</title>
+</head>
+<body style="text-align:center; font-family: Arial; background-color: #f0f8ff;">
+
+    <h1>My Image Web Page</h1>
+
+    <img src="nature.jpg"
+         alt="Beautiful nature scenery"
+         width="300"
+         height="300">
+
+    <p>This image is 300 × 300 pixels and contains ALT text.</p>
+
+</body>
+</html>
