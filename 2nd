@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Friends List</title>
+</head>
+<body style="font-family: Arial; background-color: #f5f5f5;">
+
+    <h2>My Friends</h2>
+
+    <ul style="list-style-type: circle;">
+        <li>Rahul</li>
+        <li>Anjali</li>
+        <li>Rohan</li>
+        <li>Pooja</li>
+        <li>Amit</li>
+    </ul>
+
+</body>
+</html>
