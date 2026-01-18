@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+
+    <script>
+        function checkPassword() 
+        {
+            var username = document.getElementById("uname").value;
+            var password = document.getElementById("pass").value;
+
+            // Developer set password
+            var correctPassword = "admin123";
+
+            if (password == correctPassword) 
+            {
+                window.open("welcome.html", "_blank");
+            }
+            else 
+            {
+                alert("Wrong Password! Access Denied.");
+            }
+        }
+    </script>
+
+</head>
+
+<body style="text-align:center; font-family: Arial; background-color:#f0f8ff;">
+
+    <h2>Login Page</h2>
+
+    <form>
+        <label>Username:</label><br>
+        <input type="text" id="uname"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" id="pass"><br><br>
+
+        <input type="button" value="Login" onclick="checkPassword()">
+    </form>
+
+</body>
+</html>
